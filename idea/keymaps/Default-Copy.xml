@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Default-Copy" parent="$default">
+  <action id="ChangeSignature" />
+  <action id="CheckinProject" />
+  <action id="CloneElement" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+  </action>
+  <action id="CopyElement">
+    <keyboard-shortcut first-keystroke="shift F10" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="control F" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift control L" />
+  </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift alt F5" />
+  </action>
+  <action id="ForceStepOver">
+    <keyboard-shortcut first-keystroke="shift alt F6" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="control B" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="control alt B" />
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="F10" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift R" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F8" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift F9" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift control SEMICOLON" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="F5" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="F7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="F6" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+</keymap>
+
