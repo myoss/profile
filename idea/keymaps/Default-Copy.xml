@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Default-Copy" parent="$default">
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+  </action>
   <action id="ChangeSignature" />
   <action id="CheckinProject" />
   <action id="CloneElement" />
@@ -11,6 +15,12 @@
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="EditorContextInfo">
+    <keyboard-shortcut first-keystroke="control alt Q" />
+  </action>
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="alt D" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="control F" />
@@ -27,6 +37,11 @@
   <action id="ForceStepOver">
     <keyboard-shortcut first-keystroke="shift alt F6" />
   </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+  </action>
+  <action id="Git.Push" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="control B" />
     <mouse-shortcut keystroke="control button1" />
@@ -38,14 +53,31 @@
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="control T" />
   </action>
+  <action id="Hotswap">
+    <keyboard-shortcut first-keystroke="control alt R" />
+  </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="control Q" />
+  </action>
   <action id="Move">
     <keyboard-shortcut first-keystroke="F10" />
   </action>
   <action id="NextOccurence" />
-  <action id="PreviousOccurence" />
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift R" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
   </action>
+  <action id="PreviousOccurence" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="alt Q" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift alt R" />
+  </action>
+  <action id="RerunTests" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F8" />
   </action>
