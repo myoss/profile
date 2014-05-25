@@ -1,20 +1,20 @@
 [alias]
-	st = status
-	co = checkout
-	last = log -1 HEAD
-	history = log --pretty=format:\"%h - %an, %ar : %s\"
-	hist = log --pretty=format:\"%h %s\" --graph
-	lr = log --pretty=raw
-	l = log --date-order --date=iso --graph --full-history --all --pretty=format:'%x08%x09%C(red)%h %C(cyan)%ad%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08 %C(bold blue)%aN%C(reset)%C(bold yellow)%d %C(reset)%s'
-	lh = log --date-order --date=iso --graph --full-history --all --pretty=format:'%x08%x09%C(red)%h %C(cyan)%ad%x08%x08%x08%x08%x08%x08 %C(bold blue)%aN%C(reset)%C(bold yellow)%d %C(reset)%s'
-	lt = log --oneline --decorate
+    st = status
+    co = checkout
+    last = log -1 HEAD
+    history = log --pretty=format:\"%h - %an, %ar : %s\"
+    hist = log --pretty=format:\"%h %s\" --graph
+    lr = log --pretty=raw
+    l = log --date-order --date=iso --graph --full-history --all --pretty=format:'%x08%x09%C(red)%h %C(cyan)%ad%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08%x08 %C(bold blue)%aN%C(reset)%C(bold yellow)%d %C(reset)%s'
+    lh = log --date-order --date=iso --graph --full-history --all --pretty=format:'%x08%x09%C(red)%h %C(cyan)%ad%x08%x08%x08%x08%x08%x08 %C(bold blue)%aN%C(reset)%C(bold yellow)%d %C(reset)%s'
+    lt = log --oneline --decorate
 [color]
-	ui = true
+    ui = true
 [core]
-	autocrlf = false
-	quotepath = false
+    autocrlf = false
+    quotepath = false
 [gui]
-	encoding = utf-8
+    encoding = utf-8
 [i18n]
-	commitEncoding = utf-8
-	logOutputEncoding = utf-8
+    commitEncoding = utf-8
+    logOutputEncoding = utf-8
