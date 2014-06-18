@@ -13,13 +13,23 @@
   <action id="CopyElement">
     <keyboard-shortcut first-keystroke="shift F10" />
   </action>
+  <action id="CopyLinesExAction">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="DuplicateLinesExAction">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
   </action>
   <action id="EditorContextInfo">
     <keyboard-shortcut first-keystroke="control alt Q" />
   </action>
-  <action id="EditorDuplicateLines">
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="alt D" />
   </action>
   <action id="Find">
