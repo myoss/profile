@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<keymap version="1" name="Default-Copy" parent="$default">
+<keymap version="1" name="DefaultCopy" parent="$default">
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt LEFT" />
@@ -18,6 +18,9 @@
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="Debugger.ViewText">
+    <keyboard-shortcut first-keystroke="F3" />
   </action>
   <action id="DuplicateLinesExAction">
     <keyboard-shortcut first-keystroke="control alt DOWN" />
@@ -93,6 +96,9 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift F9" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift control alt F" />
   </action>
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift control SEMICOLON" />
