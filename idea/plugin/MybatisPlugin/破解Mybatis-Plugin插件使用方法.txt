@@ -1,0 +1,13 @@
+针对于IntelliJ Idea 15中的Mybatis Plugin插件
+
+
+1、下载v2.51中的class文件
+
+2、进入到本地Idea插件配置目录
+C:\Users\你的账户目录\.IntelliJIdea15\config\plugins\mybatis_plus\lib
+
+3、用WinRAR打开mybatis_plus.jar
+
+4、根据class文件的路径将mybatis_plus.jar中的class替换掉
+
+5、重启Idea，完毕。
