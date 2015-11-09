@@ -11,7 +11,7 @@
 [color]
     ui = true
 [core]
-    autocrlf = false
+    autocrlf = true
     quotepath = false
 [gui]
     encoding = utf-8
