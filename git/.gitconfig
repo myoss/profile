@@ -13,6 +13,7 @@
 [core]
     autocrlf = true
     quotepath = false
+    safecrlf = true
 [gui]
     encoding = utf-8
 [i18n]
