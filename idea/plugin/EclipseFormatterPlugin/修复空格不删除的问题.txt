@@ -1,0 +1,22 @@
+针对于IntelliJ Idea中的EclipseFormatter插件
+
+格式化代码的时候，会在@author上一行的末位添加空格或者不删除空格，针对此问题进行修复
+
+/**
+ * 
+ * @author Jerry.Chen
+ * @since 2015年11月10日 下午8:13:23
+ */
+
+
+
+1、下载相应版本中的class文件
+
+2、进入到本地Idea插件配置目录
+C:\Users\你的账户目录\.IntelliJIdea15\config\plugins\EclipseFormatter\lib\
+
+3、用WinRAR打开EclipseFormatter.jar
+
+4、根据class文件的路径将EclipseFormatter.jar中的class替换掉
+
+5、重启Idea，完毕。
