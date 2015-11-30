@@ -1,7 +1,9 @@
 针对于IntelliJ Idea 15中的Mybatis Plugin插件
 
 
-1、下载v2.51中的class文件
+针对于windows系统中
+
+1、下载v2.51~v2.53中的class文件
 
 2、进入到本地Idea插件配置目录
 C:\Users\你的账户目录\.IntelliJIdea15\config\plugins\mybatis_plus\lib
@@ -11,3 +13,28 @@ C:\Users\你的账户目录\.IntelliJIdea15\config\plugins\mybatis_plus\lib
 4、根据class文件的路径将mybatis_plus.jar中的class替换掉
 
 5、重启Idea，完毕。
+
+
+windows测试通过的环境：
+windows 8.1 & windows 7, IntelliJ Idea 15.0.1
+
+
+
+
+对于mac os中（linux系统中应该类似，我没有验证，如果有兄弟验证过还请告诉我，感谢），对于mac os目录不一致的问题，还得感谢 @xinshitn 同学的提问，今晚上折腾了几个小时把虚拟环境弄好，找到了他PC机上出现问题的原因，欢迎大家提问题。
+
+1、使用find命令在你的用户目录下查找mybatis_plus.jar这个文件（前提你没有更改过IntelliJ Idea的配置目录，如果更改了从根目录下查找吧，花费的时间可能会多点）
+JerryMac:~ jerry-osx-m$ find ~ -name "mybatis_plus.jar"
+/Users/jerry-osx-m/Library/Application Support/IntelliJIdea15/mybatis_plus/lib/mybatis_plus.jar
+
+
+2、你找到了mybatis_plus.jar这个文件的位置之后，你就按windows系统中的操作手册去替换文件吧，至于命令行下怎么替换，我还未查资料，最近太忙了，哪位兄弟贡献下？
+我是直接拿windows系统下的替换后的文件复制过来用的，测试了一下基本功能，可以使用。
+
+
+3、重启Idea，完毕。
+
+
+
+mac os测试通过的环境：
+OS X Yosemite 10.10, IntelliJ Idea 15.0.1
