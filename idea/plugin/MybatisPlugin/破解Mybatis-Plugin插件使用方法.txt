@@ -38,3 +38,13 @@ JerryMac:~ jerry-osx-m$ find ~ -name "mybatis_plus.jar"
 
 mac os测试通过的环境：
 OS X Yosemite 10.10, IntelliJ Idea 15.0.1
+
+
+
+
+
+
+如果你按以上操作完成之后，功能上可以使用，但是会出现以下提示信息：
+Mybatis Plugin is not activated yet. Click here to enter your license key to activate the plugin. You can also click here to purchase a license key to sponsor us making the plugin better. More features are on their way. Wish you happy coding with the plugin
+
+请使用文件夹“替换之后如果还有提示，请替换这个文件夹的内容”中的内容替换，目前只有 @xinshitn 同学反映他在mac os下出现此问题，故单独放在文件夹，如果普遍出现此情况，还烦请同学们给我反映
