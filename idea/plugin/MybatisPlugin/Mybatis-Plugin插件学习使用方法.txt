@@ -1,4 +1,6 @@
-以下教程仅供学习使用，针对于IntelliJ Idea 15中的Mybatis Plugin插件
+以下教程仅供学习使用，针对于IntelliJ Idea 15中的Mybatis Plugin插件。
+
+作者博客中的教程：http://myoss.github.io/2016/MyBatis-Plugin-%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/
 
 
 针对于windows系统中
