@@ -1,4 +1,4 @@
-针对于IntelliJ Idea 15中的Mybatis Plugin插件
+以下教程仅供学习使用，针对于IntelliJ Idea 15中的Mybatis Plugin插件
 
 
 针对于windows系统中
