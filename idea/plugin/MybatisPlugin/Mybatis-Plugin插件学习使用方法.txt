@@ -31,9 +31,9 @@ JerryMac:~ jerry-osx-m$ find ~ -name "mybatis_plus.jar"
 /Users/jerry-osx-m/Library/Application Support/IntelliJIdea15/mybatis_plus/lib/mybatis_plus.jar
 
 
-2、你找到了mybatis_plus.jar这个文件的位置之后，你就按windows系统中的操作手册去替换文件吧，至于命令行下怎么替换，我还未查资料，最近太忙了，哪位兄弟贡献下？
-我是直接拿windows系统下的替换后的文件复制过来用的，测试了一下基本功能，可以使用。
+2、你找到了mybatis_plus.jar这个文件的位置之后，将对应版本中的com目录拷贝到mybatis_plus.jar同级目录，输入命令将com目录压缩进mybatis_plus.jar中。
 
+jar uvf mybatis_plus.jar com
 
 3、重启Idea，完毕。
 
